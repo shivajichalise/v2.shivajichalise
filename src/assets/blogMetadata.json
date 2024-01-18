@@ -1,13 +1,5 @@
 [
   {
-    "title": "Test",
-    "markdown": "test",
-    "created_at": "Nov 08, 2023",
-    "category": "Programming",
-    "author": "Shivaji Chalise",
-    "tags": ["Blockchain", "Python"]
-  },
-  {
     "title": "What is blockchain?",
     "markdown": "what-is-blockchain",
     "created_at": "Nov 08, 2023",
