@@ -15,4 +15,12 @@
     "author": "Shivaji Chalise",
     "tags": ["Cryptography", "Security"]
   }
+  {
+    "title": "Encryption algorithms",
+    "markdown": "encryption-algorithms",
+    "created_at": "Apr 03, 2024",
+    "category": "Security",
+    "author": "Shivaji Chalise",
+    "tags": ["Cryptography", "Security", "Encryption"]
+  }
 ]
