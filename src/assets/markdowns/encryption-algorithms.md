@@ -3,13 +3,13 @@
 > Encryption algorithm is a set of mathematical procedures and rules used to transformplaintext into a cyphertext (encrypted data)
 > in order to protect its integrity, confedentiality and authenticity during transmission or storage.
 > The strength and security of an encryption algorithm are determined by factors such as
-> `complexity of the algorithm`, `length and randomness of the crytographic keys`, and `resistance to crytographic attacks`
+> **complexity of the algorithm**, **length and randomness of the crytographic keys**, and **resistance to crytographic attacks**
 
 Some most commonly used encryption algorithms are:
 
 1. DES
 
-- DES stands for `Data Encryption Standard`.
+- DES stands for **Data Encryption Standard**.
 - It is a symmetric encryption algorithm.
 - It operates on fixed-size blocks of data (64 bits) (the cipher processes 64 bits (or 8 bytes) of the input data at a time) and supports key sizes of 56 bits.
 - DES is now considered obsolete due to its relatively small key size (56 bits) and vulnerability to brute-force attacks.
@@ -17,7 +17,7 @@ Some most commonly used encryption algorithms are:
 
 2. AES
 
-- AES stands for `Advanced Encryption Standard`.
+- AES stands for **Advanced Encryption Standard**.
 - It is a symmetric encryption algorithm.
 - It operates on fixed-size blocks of data (128 bits) (the cipher processes 128 bits (or 16 bytes) of the input data at a time) and supports key sizes of 128, 192 and 256 bits.
 - It offers a good balance between security and performance, making it suitable for various applications including
@@ -28,7 +28,7 @@ Some most commonly used encryption algorithms are:
 
 3. RSA
 
-- RSA stands for `Rivest-Shamir-Adleman`.
+- RSA stands for **Rivest-Shamir-Adleman**.
 - It is a asymmetric encryption algorithm.
 - For key generation RSA involves selecting two large prime numbers and computing their product to generate the public and private keys.
 - The security of RSA algorithm relies on the difficulty of factoring large prime numbers.
