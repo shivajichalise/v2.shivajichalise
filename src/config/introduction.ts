@@ -83,6 +83,13 @@ const introduction: ContentProps[] = [
           title: "Yakeen Kapali (https://yakeenkapali.com.np)",
           suffix: "",
         },
+        {
+          type: "link",
+          link: "https://github.com/shivajichalise/eventmate",
+          openInNewTab: true,
+          title: "EventMate (https://github.com/shivajichalise/eventmate)",
+          suffix: "",
+        },
       ],
     },
   },
