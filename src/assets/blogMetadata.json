@@ -14,7 +14,7 @@
     "category": "Security",
     "author": "Shivaji Chalise",
     "tags": ["Cryptography", "Security"]
-  }
+  },
   {
     "title": "Encryption algorithms",
     "markdown": "encryption-algorithms",
