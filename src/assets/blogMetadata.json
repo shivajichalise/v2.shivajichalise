@@ -22,5 +22,13 @@
     "category": "Security",
     "author": "Shivaji Chalise",
     "tags": ["Cryptography", "Security", "Encryption"]
+  },
+  {
+    "title": "Consensus protocols",
+    "markdown": "consensus-protocols",
+    "created_at": "Apr 04, 2024",
+    "category": "Blockchain",
+    "author": "Shivaji Chalise",
+    "tags": ["Blockchain"]
   }
 ]
