@@ -30,5 +30,13 @@
     "category": "Blockchain",
     "author": "Shivaji Chalise",
     "tags": ["Blockchain"]
+  },
+  {
+    "title": "Mining and incentive models",
+    "markdown": "mining-and-incentive-models",
+    "created_at": "Apr 05, 2024",
+    "category": "Blockchain",
+    "author": "Shivaji Chalise",
+    "tags": ["Blockchain"]
   }
 ]
