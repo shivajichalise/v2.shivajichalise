@@ -38,5 +38,13 @@
     "category": "Blockchain",
     "author": "Shivaji Chalise",
     "tags": ["Blockchain"]
+  },
+  {
+    "title": "Decentralization vs trust",
+    "markdown": "decentralization-vs-trust",
+    "created_at": "Apr 05, 2024",
+    "category": "Decentralization",
+    "author": "Shivaji Chalise",
+    "tags": ["Blockchain", "Decentralization", "Cryptography"]
   }
 ]
