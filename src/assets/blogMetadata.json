@@ -46,5 +46,13 @@
     "category": "Decentralization",
     "author": "Shivaji Chalise",
     "tags": ["Blockchain", "Decentralization", "Cryptography"]
+  },
+  {
+    "title": "Cryptocurrencies and cryptowallets",
+    "markdown": "cryptocurrencies-and-cryptowallets",
+    "created_at": "Apr 08, 2024",
+    "category": "Crypto",
+    "author": "Shivaji Chalise",
+    "tags": ["Blockchain", "Decentralization", "Cryptocurrencies"]
   }
 ]
