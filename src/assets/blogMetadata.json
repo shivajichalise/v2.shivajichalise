@@ -54,5 +54,13 @@
     "category": "Crypto",
     "author": "Shivaji Chalise",
     "tags": ["Blockchain", "Decentralization", "Cryptocurrencies"]
+  },
+  {
+    "title": "Ethereum",
+    "markdown": "ethereum",
+    "created_at": "Apr 11, 2024",
+    "category": "Blockchain",
+    "author": "Shivaji Chalise",
+    "tags": ["Blockchain", "Ethereum", "EVM"]
   }
 ]
