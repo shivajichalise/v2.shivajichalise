@@ -62,5 +62,13 @@
     "category": "Blockchain",
     "author": "Shivaji Chalise",
     "tags": ["Blockchain", "Ethereum", "EVM"]
+  },
+  {
+    "title": "ERC Tokens",
+    "markdown": "erc-tokens",
+    "created_at": "Apr 11, 2024",
+    "category": "Ethereum",
+    "author": "Shivaji Chalise",
+    "tags": ["Blockchain", "Ethereum", "ERC", "Tokens"]
   }
 ]
