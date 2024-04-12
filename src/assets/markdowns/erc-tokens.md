@@ -24,7 +24,7 @@ a fiat currency like USD,
 an ounce of gold,
 and more.
 
-1. **ERC-20**:
+## 1. **ERC-20**:
 
 - The ERC-20 introduces a standard for Fungible Tokens, in other words,
   they have a property that makes each Token be exactly the same (in type and value) as another Token.
@@ -123,3 +123,91 @@ There are already many implementations of ERC-20 compliant tokens in Ethereum ne
 Different implementation by different teams comes with different trade-offs; including gas saving to improved security.
 
 Please refer to [this](https://eips.ethereum.org/EIPS/eip-20) for more detailed explanation.
+
+## 2. **ERC-721**:
+
+- ERC-721 ntroduces a standard for Non Fungible Tokens (NFTs), in other words,
+  this type of Token is unique and can have different value than another Token from the same Smart Contract.
+
+- ERC-721 provides functionalities similar to ERC-20 tokens.
+
+1. Transfer tokens from one account to another.
+2. Get the current token balance of an account.
+3. Get the owner of a specific token.
+4. Get total supply of the token available on the network.
+5. Approve that an amount of token from an account can be moved by a third party account.
+
+The uniqueness of each ERC721 token is a key characteristic.
+There are one and only one of these ERC721 Tokens when you create an ERC721 token.
+These tokens, as NFTs, are spreading the idea and use of new assets to Ethereum.
+
+If a Smart Contract implements the following methods and events it can be called an ERC-721 Token Contract.
+
+#### Methods:
+
+<code language="sol">
+    function balanceOf(address _owner) external view returns (uint256);
+    function ownerOf(uint256 _tokenId) external view returns (address);
+    function safeTransferFrom(address _from, address _to, uint256 _tokenId, bytes data) external payable;
+    function safeTransferFrom(address _from, address _to, uint256 _tokenId) external payable;
+    function transferFrom(address _from, address _to, uint256 _tokenId) external payable;
+    function approve(address _approved, uint256 _tokenId) external payable;
+    function setApprovalForAll(address _operator, bool _approved) external;
+    function getApproved(uint256 _tokenId) external view returns (address);
+    function isApprovedForAll(address _owner, address _operator) external view returns (bool);
+</code>
+
+#### Events:
+
+<code language="sol">
+    event Transfer(address indexed _from, address indexed _to, uint256 indexed _tokenId);
+    event Approval(address indexed _owner, address indexed _approved, uint256 indexed _tokenId);
+    event ApprovalForAll(address indexed _owner, address indexed _operator, bool _approved);
+</code>
+
+Let's understand the purpose of each of the methods.
+
+1. blanceOf(address \_owner)
+
+- Count all NFTs assigned to an owner and return the number of NFTs owned by \_owner.
+
+2. ownerOf(uint256 \_tokenId)
+
+- Returns the address of the owner of the NFT.
+- NFTs assigned to the zero address are considered invalid, and this function throws for queries about the zero address.
+
+3. safeTransferFrom(address \_from, address \_to, uint256 \_tokenId, bytes data)
+
+- It transfers the ownership of an NFT from one address to another address.
+
+4. safeTransferFrom(address \_from, address \_to, uint256 \_tokenId)
+
+- It transfers the ownership of an NFT from one address to another address.
+- This works identically to the other function with an extra data parameter, except this function just sets data to "".
+
+5. transferFrom(address \_from, address \_to, uint256 \_tokenId)
+
+- It transfers ownership of an NFT to another address.
+- Remember, when invoking this method **THE CALLER IS RESPONSIBLE TO CONFIRM THAT \_to IS CAPABLE OF RECEIVING NFTS
+  OR ELSE THEY MAY BE PERMANENTLY LOST**
+
+6. approve(address \_approved, uint256 \_tokenId)
+
+- It is used to change or reaffirm the approved address for an NFT.
+- The zero address indicates there is no approved address.
+
+7. setApprovalForAll(address \_operator, bool \_approved)
+
+- It is invoked to enable or disable approval for a third party ("operator") to manage all of msg.sender's assets.
+- It emits the ApprovalForAll event.
+- The contract MUST allow multiple operators per owner.
+
+8. getApproved(uint256 \_tokenId)
+
+- It is invoked to get the approved address for a single NFT with id \_tokenId.
+
+9. isApprovedForAll(address \_owner, address \_operator)
+
+- This method is invoked to query if an address is an authorized operator for another address.
+
+Please refer to [this](https://eips.ethereum.org/EIPS/eip-721) for detailed explanation.
