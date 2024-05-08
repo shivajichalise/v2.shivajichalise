@@ -9,6 +9,10 @@ type TerminalProps =
   | {
       type: "blog";
       content: ReactNode;
+    }
+  | {
+      type: "contact";
+      content: ReactNode;
     };
 
 export default TerminalProps;

@@ -19,6 +19,14 @@ const Navbar = () => {
       >
         blog
       </NavLink>
+      <NavLink
+        to="/contact"
+        className={({ isActive }) =>
+          `m-2 ${isActive ? "text-secondary" : "opacity-50"}`
+        }
+      >
+        contact
+      </NavLink>
     </nav>
   );
 };
