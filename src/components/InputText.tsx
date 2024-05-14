@@ -7,7 +7,7 @@ const Prompt = ({ label }: PromptProps) => {
 
 const InputText = ({ name, type }: InputTextProps) => {
   return (
-    <div className="mt-4 flex">
+    <div className="mt-4 flex flex-col lg:flex-row">
       <Prompt label={name} />
       <input
         type={type ?? "text"}

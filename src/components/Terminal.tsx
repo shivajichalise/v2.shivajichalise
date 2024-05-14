@@ -12,9 +12,11 @@ const Terminal = ({ type, content }: TerminalProps) => {
       </div>
 
       <div className="flex justify-between my-2">
-        <h3 className="text-sm font-thin">SHIVAJI(8)</h3>
-        <h3 className="text-sm font-thin">General Commands Manual</h3>
-        <p className="text-sm font-thin">SHIVAJI(8)</p>
+        <h3 className="text-xs lg:text-sm font-thin">SHIVAJI(8)</h3>
+        <h3 className="text-xs lg:text-sm font-thin text-center">
+          General Commands Manual
+        </h3>
+        <p className="text-xs lg:text-sm font-thin">SHIVAJI(8)</p>
       </div>
 
       {type === "manpage" ? (

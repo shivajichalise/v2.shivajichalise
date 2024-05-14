@@ -8,7 +8,7 @@ import ThankYou from "./pages/ThankYou";
 
 const App = () => {
   return (
-    <div className="container mx-auto my-12 w-3/5">
+    <div className="container mx-auto my-12 w-11/12 lg:w-3/5">
       <Routes>
         <Route path="/" element={<Home />} />
 
