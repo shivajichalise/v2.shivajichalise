@@ -27,6 +27,15 @@ const Navbar = () => {
       >
         contact
       </NavLink>
+      <NavLink
+        to="https://cv.shivajichalise.com.np"
+        target="_blank"
+        className={({ isActive }) =>
+          `m-2 ${isActive ? "text-secondary" : "opacity-50"}`
+        }
+      >
+        cv
+      </NavLink>
     </nav>
   );
 };
