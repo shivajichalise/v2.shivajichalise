@@ -35,8 +35,7 @@ const introduction: ContentProps[] = [
           type: "text",
           link: "",
           openInNewTab: false,
-          title:
-            "FRAMEWORKS/LIBRARIES: Laravel, Bootstrap, Reactjs, Tailwind-CSS, NodeJs, Express",
+          title: "FRAMEWORKS/LIBRARIES: Laravel, React , Node.js, Express.js",
           suffix: "",
         },
         {
@@ -64,31 +63,55 @@ const introduction: ContentProps[] = [
       data: [
         {
           type: "link",
+          link: "https://app.pokharamarathon.org/user/login",
+          openInNewTab: true,
+          title:
+            "Pokhara Marathon (https://app.pokharamarathon.org/user/login)",
+          suffix:
+            "Admin dashboard to manage users, race registrations, certificates etc.",
+        },
+        {
+          type: "link",
           link: "https://raysmotors.com.np",
           openInNewTab: true,
           title: "Rays Motors (https://raysmotors.com.np)",
-          suffix: "",
+          suffix: "A web app for ISUZU vehicle showroom.",
         },
         {
           type: "link",
           link: "https://mirajfurniture.com.np",
           openInNewTab: true,
           title: "Miraj Furniture (https://mirajfurniture.com.np)",
-          suffix: "",
+          suffix: "A static website for Miraj Furnitures.",
         },
         {
           type: "link",
           link: "https://yakeenkapali.com.np",
           openInNewTab: true,
           title: "Yakeen Kapali (https://yakeenkapali.com.np)",
-          suffix: "",
+          suffix: "Personal website for my friend.",
         },
         {
           type: "link",
           link: "https://github.com/shivajichalise/eventmate",
           openInNewTab: true,
           title: "EventMate (https://github.com/shivajichalise/eventmate)",
-          suffix: "",
+          suffix: "Event Management System",
+        },
+        {
+          type: "link",
+          link: "https://github.com/shivajichalise/snippysnapysuu",
+          openInNewTab: true,
+          title:
+            "Snippy Snappy Suu (https://github.com/shivajichalise/snippysnapysuu)",
+          suffix: "A code snippet web app.",
+        },
+        {
+          type: "link",
+          link: "https://github.com/shivajichalise/bolanabola",
+          openInNewTab: true,
+          title: "Bola na bola (https://github.com/shivajichalise/bolanabola)",
+          suffix: "A dead simple real time chat application.",
         },
       ],
     },
