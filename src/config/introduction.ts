@@ -14,7 +14,7 @@ const introduction: ContentProps[] = [
   {
     title: "Description",
     description:
-      "Shivaji, a software engineering student on a mission to be a strong problem solver. He is currently experimenting with tech to figure out his jam.",
+      "Shivaji, a full stack engineer with a knack for crafting clean, well-tested, and performant code.",
     points: null,
   },
   {
@@ -28,14 +28,14 @@ const introduction: ContentProps[] = [
           type: "text",
           link: "",
           openInNewTab: false,
-          title: "PROGRAMMING LANGUAGES: JS, PHP, Python",
+          title: "PROGRAMMING LANGUAGES: JS, PHP",
           suffix: "",
         },
         {
           type: "text",
           link: "",
           openInNewTab: false,
-          title: "FRAMEWORKS/LIBRARIES: Laravel, React , Node.js, Express.js",
+          title: "FRAMEWORKS/LIBRARIES: Laravel, React, Node.js, Express.js",
           suffix: "",
         },
         {
@@ -50,6 +50,13 @@ const introduction: ContentProps[] = [
           link: "",
           openInNewTab: false,
           title: "TOOLS: Git, Linux",
+          suffix: "",
+        },
+        {
+          type: "text",
+          link: "",
+          openInNewTab: false,
+          title: "LEARNING: Rust, Go, Solidity",
           suffix: "",
         },
       ],
@@ -113,6 +120,13 @@ const introduction: ContentProps[] = [
           title: "Bola na bola (https://github.com/shivajichalise/bolanabola)",
           suffix: "A dead simple real time chat application.",
         },
+        {
+          type: "link",
+          link: "https://cv.shivajichalise.com.np",
+          openInNewTab: true,
+          title: "Click here to view the CV for other projects.",
+          suffix: "",
+        },
       ],
     },
   },
@@ -155,7 +169,7 @@ const introduction: ContentProps[] = [
   },
   {
     title: "Exit Status",
-    description: "shivaji exists 0 on success, and cries if an error occurs.",
+    description: "shivaji exists 0 on success, and panics if an error occurs.",
     points: null,
   },
 ];
