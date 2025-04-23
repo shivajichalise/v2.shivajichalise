@@ -169,7 +169,7 @@ const introduction: ContentProps[] = [
   },
   {
     title: "Exit Status",
-    description: "shivaji exists 0 on success, and panics if an error occurs.",
+    description: "shivaji exits 0 on success, and panics if an error occurs.",
     points: null,
   },
 ];
